@@ -30,7 +30,7 @@ function CommentPage() {
         const data = await response.json()
         console.log(data)
         fetchComments()
-      }
+    }
     return(
         <>
             <input type='text' value={post} onChange={(e) => setPost(e.target.value)}></input>
